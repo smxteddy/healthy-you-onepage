@@ -134,3 +134,7 @@ body {
 
 #stories #col-5 {
   background-color: #8ECAEE; }
+
+#stories .img-fluid {
+  display: flex;
+  align-items: center; }
