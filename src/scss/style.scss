@@ -1,6 +1,6 @@
 // Main Sass File
 body{
-  margin-top:105px;
+  margin-top: 30px;
   background: linear-gradient(to top right, #DA7482, #5E4F90);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,19 +11,20 @@ body{
   color: #fff;
 }
 
+
 .navbar{
   font-size: 20px;
   background-color: #D3D3D3;
-
 }
 
 #intro{
   height: 400px;
+
+  .img-fluid{
+    height: auto;
+  }
 }
 
-.img-fluid{
-  height: auto;
-}
 
 .section-divider{
   margin: 25px 0;
@@ -165,4 +166,14 @@ body{
     align-items:center;
   }
 
+}
+
+#footer{
+  .fa-stack        .fa { color: black; }
+  .fa-stack        .fa.fa-circle-thin { color: black; }
+  .fa-stack        .fa.fa-circle { opacity:0.0; color:black; }
+
+  .fa-stack:hover  .fa.fa-user-plus { color: white; }
+  .fa-stack:hover  .fa.fa-circle-thin { color: black; }
+  .fa-stack:hover  .fa.fa-circle { opacity:1.0 }
 }

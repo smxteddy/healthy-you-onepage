@@ -1,5 +1,5 @@
 body {
-  margin-top: 105px;
+  margin-top: 30px;
   background: linear-gradient(to top right, #DA7482, #5E4F90);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,9 +14,8 @@ body {
 
 #intro {
   height: 400px; }
-
-.img-fluid {
-  height: auto; }
+  #intro .img-fluid {
+    height: auto; }
 
 .section-divider {
   margin: 25px 0;
@@ -138,3 +137,22 @@ body {
 #stories .img-fluid {
   display: flex;
   align-items: center; }
+
+#footer .fa-stack .fa {
+  color: black; }
+
+#footer .fa-stack .fa.fa-circle-thin {
+  color: black; }
+
+#footer .fa-stack .fa.fa-circle {
+  opacity: 0.0;
+  color: black; }
+
+#footer .fa-stack:hover .fa.fa-user-plus {
+  color: white; }
+
+#footer .fa-stack:hover .fa.fa-circle-thin {
+  color: black; }
+
+#footer .fa-stack:hover .fa.fa-circle {
+  opacity: 1.0; }
