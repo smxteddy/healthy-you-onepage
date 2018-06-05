@@ -25,10 +25,10 @@
 
       <!-- CONTENT SECTIONS -->
       <section id="content">
-        <div class="container bg-light">
+        <div class="container bg-light rounded">
 
           <!-- NAV -->
-          <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+          <nav class="navbar navbar-expand-sm navbar-light sticky-top full-navbar rx-tlr">
             <div class="container">
               <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item">
-                    <a href="#intro" class="nav-link">Introduction</a>
+                    <a href="#intro" class="nav-link active">Introduction</a>
                   </li>
                   <li class="nav-item">
                     <a href="#benefits" class="nav-link">Benefits</a>
@@ -54,7 +54,7 @@
 
           <!-- INTRO -->
           <section id="intro">
-            <div class="container bg-light">
+            <div class="container bg-light p-5">
               <div class="row">
                 <div class="col-md-6 py-4">
                   <h2 class="display px-2 ">Introduction</h2>
@@ -64,7 +64,7 @@
                   <p class="p-2 text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Temporibus, sunt veniam amet, quos pariatur magni.</p>
                     <div class="row px-4">
-                      <a class="px-5 py-3 btn btn-outline-secondary btn-lg text-secondary action-btn-primary" href="#about">Learn More</a>
+                      <a class="px-5 py-3 btn btn-outline-secondary btn-lg action-btn-primary" href="#about">Learn More</a>
                     </div>
                 </div>
                 <div class="col-md-6 py-4">
@@ -80,7 +80,7 @@
 
           <!-- BENEFITS -->
           <section id="benefits">
-            <div class="container bg-light">
+            <div class="container bg-light p-5">
               <div class="row d-flex justify-content-center">
                 <div class="col-md-6 py-4 text-center align-items-center">
                   <h2 class="display px-2">Benefits</h2>
@@ -88,8 +88,8 @@
                 </div>
                 <div class="row d-flex">
                   <div class="col-md-4">
-                    <div class="benefits-border-outer-one mx-auto">
-                      <div class="benefits-border-inner-one mx-auto">
+                    <div class="benefits-border-outer">
+                      <div class="benefits-border-inner b1">
                       </div>
                     </div>
                     <h3 class="display text-secondary text-center py-2">Lorem ipsum.</h3>
@@ -97,8 +97,8 @@
                       consectetur adipisicing elit. Aperiam, delectus?</p>
                   </div>
                   <div class="col-md-4">
-                    <div class="benefits-border-outer-two mx-auto">
-                      <div class="benefits-border-inner-two mx-auto">
+                    <div class="benefits-border-outer">
+                      <div class="benefits-border-inner b2">
                       </div>
                     </div>
                     <h3 class="display text-secondary text-center py-2">Lorem ipsum.</h3>
@@ -106,8 +106,8 @@
                       consectetur adipisicing elit. Aperiam, delectus?</p>
                   </div>
                   <div class="col-md-4">
-                    <div class="benefits-border-outer-three mx-auto">
-                      <div class="benefits-border-inner-three mx-auto">
+                    <div class="benefits-border-outer">
+                      <div class="benefits-border-inner b3">
                       </div>
                     </div>
                     <h3 class="text-secondary text-center py-2">Lorem ipsum.</h3>
@@ -122,7 +122,7 @@
 
           <!-- SUCCESS STORIES-->
           <section id="stories">
-            <div class="container bg-light">
+            <div class="container bg-light p-5">
               <div class="row d-flex justify-content-center">
                 <div class="col-md-6 py-4 text-center align-items-center">
                   <h2 class="display px-2">Success Stories</h2>
@@ -130,37 +130,46 @@
                   <p class="text-secondary text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est ipsam, soluta recusandae labore ut ea!</p>
                 </div>
               </div>
-              <div class="row d-flex justify-content-center">
-                <div class="container rounded p-4">
-                  <div class="row d-flex justify-content-center">
-                    <div class="col-sm-2" id="col-1">
-                      <img src="img/connect.png" alt="" class="img-fluid mx-auto py-3" height="75" width="75">
-                      <h4 class="display text-white text-center">5,312</h4>
-                      <h4 class="display text-white text-center">Lorem.</h4>
-                    </div>
-                    <div class="col-sm-2" id="col-2">
-                      <img src="img/folder.png" alt="" class="img-fluid mx-auto py-3" height="75" width="75">
-                      <h4 class="display text-white text-center">5,312</h4>
-                      <h4 class="display text-white text-center">Lorem.</h4>
-                    </div>
-                    <div class="col-sm-2" id="col-3">
-                      <img src="img/graph.png" alt="" class="img-fluid mx-auto py-3" height="75" width="75">
-                      <h4 class="display text-white text-center">5,312</h4>
-                      <h4 class="display text-white text-center">Lorem.</h4>
-                    </div>
-                    <div class="col-sm-2" id="col-4">
-                      <img src="img/laptop.png" alt="" class="img-fluid mx-auto py-3" height="75" width="75">
-                      <h4 class="display text-white text-center">5,312</h4>
-                      <h4 class="display text-white text-center">Lorem.</h4>
-                    </div>
-                    <div class="col-sm-2" id="col-5">
-                      <img src="img/white-diamond.png" alt="" class="img-fluid mx-auto py-3" height="75" width="75">
-                      <h4 class="display text-white text-center">5,312</h4>
-                      <h4 class="display text-white text-center">Lorem.</h4>
-                    </div>
-                  </div>
+
+              <div class="d-flex justify-content-center">
+                <div class="btn-group btn-group-justified" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-secondary px-5 py-3 t-1">
+                    <img src="img/connect.png" alt="" class="img-fluid mx-auto py-1" height="50" width="50">
+                        <h4 class="display text-white text-center">5,312</h4>
+                        <p class="text-white text-center h6">Lorem.</p>
+                  </button>
+
+                  <button type="button" class="btn btn-secondary px-5 py-3 t-2">
+                    <img src="img/folder.png" alt="" class="img-fluid mx-auto py-1" height="50" width="50">
+                        <h4 class="display text-white text-center">5,312</h4>
+                        <p class="text-white text-center h6">Lorem.</p>
+                  </button>
+
+                  <button type="button" class="btn btn-secondary px-5 py-3 t-3">
+                    <img src="img/graph.png" alt="" class="img-fluid mx-auto py-1" height="50" width="50">
+                        <h4 class="display text-white text-center">5,312</h4>
+                        <p class="text-white text-center h6">Lorem.</p>
+                  </button>
+
+                  <button type="button" class="btn btn-secondary px-5 py-3 t-4">
+                    <img src="img/laptop.png" alt="" class="img-fluid mx-auto py-1" height="50" width="50">
+                        <h4 class="display text-white text-center">5,312</h4>
+                        <p class="text-white text-center h6">Lorem.</p>
+                  </button>
+
+                  <button type="button" class="btn btn-secondary px-5 py-3 t-5">
+                    <img src="img/white-diamond.png" alt="" class="img-fluid mx-auto py-1" height="50" width="50">
+                        <h4 class="display text-white text-center">5,312</h4>
+                        <p class="text-white text-center h6">Lorem.</p>
+                  </button>
                 </div>
-              <div class="row d-flex">
+              </div>
+
+
+          <div class="row">
+            <div class="container">
+
+              <div class="row py-4">
                 <div class="col-md-6">
                   <p class="text-secondary">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -182,7 +191,7 @@
 
           <!-- GET STARTED-->
           <section id="start">
-            <div class="container bg-light">
+            <div class="container bg-light p-5">
               <div class="row d-flex justify-content-center">
                 <div class="col-md-6 py-4 text-center align-items-center">
                   <h2 class="display px-2">Get Started</h2>
@@ -193,8 +202,8 @@
               </div>
               <div class="row d-flex justify-content-center py-1">
                 <div class="col-md-6 py-4 text-center align-items-center">
-                  <a class="btn btn-outline-secondary btn-lg text-secondary action-btn-primary px-5 py-3" href="#start">Start Now</a>
-                  <a class="btn btn-outline-secondary btn-lg text-secondary action-btn-primary px-5 py-3" href="#about">Learn More</a>
+                  <a class="btn btn-outline-secondary btn-lg action-btn-primary px-5 py-3" href="#start">Start Now</a>
+                  <a class="btn btn-outline-secondary btn-lg action-btn-primary px-5 py-3" href="#about">Learn More</a>
                 </div>
               </div>
             </div>
